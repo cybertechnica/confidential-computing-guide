@@ -86,23 +86,27 @@ const config: Config = {
           items: [
             {
               label: 'TPM',
-              to: '/docs/intro',
+              to: '/docs/tpm/intro',
             },
             {
-              label: 'SGX/TDX',
-              to: '/docs/intro',
+              label: 'SGX',
+              to: '/docs/sgx/intro',
+            },
+            {
+              label: 'TDX',
+              to: '/docs/tdx/intro'
             },
             {
               label: 'AMD SEV-SNP',
-              to: '/docs/intro',
+              to: '/docs/amd-sev-snp/intro',
             },
             {
               label: 'H100',
-              to: '/docs/intro',
+              to: '/docs/nvidia-h100/intro',
             },
             {
               label: 'ARM CCA',
-              to: '/docs/intro',
+              to: '/docs/arm_cca/intro',
             },
           ],
         },

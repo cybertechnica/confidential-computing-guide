@@ -1,10 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-
-
-# Installation
+# Try it, you already have it 
 
 # References
 [https://ejaaskel.dev/yocto-emulation-setting-up-qemu-with-tpm/](https://ejaaskel.dev/yocto-emulation-setting-up-qemu-with-tpm/)
