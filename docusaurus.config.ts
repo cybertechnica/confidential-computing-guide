@@ -59,10 +59,10 @@ const config: Config = {
     image: 'img/Orphic-egg_negative.png',
     navbar: {
       title: 'Confidential Computing Guide',
-      logo: {
-        alt: 'Cybertechnica',
-        src: 'img/Orphic-egg_negative.png',
-      },
+      // logo: {
+      //   alt: 'Cybertechnica',
+      //   src: '',
+      // },
       items: [
         {
           type: 'docSidebar',
