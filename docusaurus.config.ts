@@ -115,7 +115,7 @@ const config: Config = {
           items: [
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://x.com/cybertechnica',
             },
           ],
         },
