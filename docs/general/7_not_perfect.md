@@ -13,19 +13,20 @@ Many people raised several concerns about confidential computing and trusted com
 
 One first thing to understand is that there is a difference between confidentiality and privacy. In information systems, TEEs can guarantee the confidentiality of runtime execution. However, privacy IS NOT something that TEEs protect us from. It is even the contrary. In TPMs for example, knowing the Endorsement Key of a secure chip could reveal information about which chip it is. 
 
-The ethical and privacy concerns are valid. Numerous discussions on the freedom of using you own hardware according to what you want is rightfull. For example, Intel ME has been accused of containing a backdoor and is insecure due to multiple vulnerabilities since 2017. This suggestion is mainly strenghten [by the fact that the code isn't publicly accessible for researchers](https://blog.thenewoil.org/the-not-so-scary-truth-behind-intel-me) (which is by the way a valid point) and the fact that the Intel ME chip is always up, can't not be disabled and has access to everything inside the computer (network, memory, keyboard, display, etc...) - yes, this is really suspicious indeed. However, the main concern is about management (as indicated by the name Intel *"Management Engine"*). The goal of this chip might have been a DRM type of control, which is by any means less concerning.
+The ethical and privacy concerns are valid. Numerous discussions on the freedom of using you own hardware according to what you want is rightfull. For example, Intel ME has been accused of containing a backdoor and is insecure due to multiple vulnerabilities since 2017. This suggestion is mainly strenghten [by the fact that the code isn't publicly accessible for researchers](https://blog.thenewoil.org/the-not-so-scary-truth-behind-intel-me) (which is by the way a valid point) and the fact that the Intel ME chip is always up, can not be disabled and has access to everything inside the computer (network, memory, keyboard, display, etc...) - yes, this is really suspicious indeed. However, the main concern is about management (as indicated by the name Intel *"Management Engine"*). The goal of this chip might have been a DRM type of control, which is by any means less concerning.
 
 So the main question remains : *is it possible to trust you own computer ? Or do you have a full control over it ?* 
 
 Well, the quick answer is no, and that might be because of the remote attestation. 
-Richard Stallman (*just the guy who created the GNU project*) actually wrote an [essay back in 2002](https://www.gnu.org/philosophy/can-you-trust.en.html) basically predicting this issue. Unfortunately, he wasn't totally wrong. The example is, as he noted, Google Play Integrity API (formerly known as Google SafetyNet) which verifies that the operating system you are running is a Google official version. Hence, is you're using another OS such as [GrapheneOS](https://grapheneos.org/articles/attestation-compatibility-guide), [LineageOS](https://lineageos.org/PlayIntegrity/) or others, some bank apps (and Netflix apparently) can't not run on other operating systems other than an official Google android one. 
+Richard Stallman (*just the guy who created the GNU project*) actually wrote an [essay back in 2002](https://www.gnu.org/philosophy/can-you-trust.en.html) basically predicting this issue. Unfortunately, he wasn't totally wrong. The example is, as he noted, Google Play Integrity API (formerly known as Google SafetyNet) which verifies that the operating system you are running is a Google official version. Hence, if you're using another OS such as [GrapheneOS](https://grapheneos.org/articles/attestation-compatibility-guide), [LineageOS](https://lineageos.org/PlayIntegrity/) or others, some bank apps (and Netflix apparently) will not run on other operating systems other than an official Google android one. 
 
-Not great for those who does not want to use Google apps (with the whole constant tracking) anymore. 
+Not great for those who do not want to use Google apps (with the whole constant tracking) anymore. 
 
 Actually, 
 https://gabrielsieben.tech/2022/07/29/remote-assertion-is-coming-back-how-much-freedom-will-it-take/
 
 *What should be done?*
+
 Remote attestation is not all that bad. If used correctly. 
 There is many use-cases where we can find useful purposes as a protective mechanism. From malware and bootkits detection to phishing protection. It should just not be used as a mean to control and restrict people from using the software they want. 
 
@@ -39,7 +40,7 @@ A popular myth that people (I hope only marketers) might promote these days, is 
 **They could not be more wrong**. 
 
 
-***On one hand***, while vulnerabilities on low level component and hardware is surely rare (*Should we talk about Spectre and Meltdown?*) and might be difficult to exploit, they still exist. This doesn't mean that using TEEs doesn't add any security, but if a critical vulnerability isn't handled and patched correctly, the secure layers added won't be of any help. Having the best impenetrable door with the all windows open and the house is on the first floor won't protect add any protection from entering. 
+***On one hand***, while vulnerabilities on low level component and hardware is surely rare (*Should we talk about Spectre and Meltdown?*) and might be difficult to exploit, they still exist. This doesn't mean that using TEEs doesn't add any security, but if a critical vulnerability isn't handled and patched correctly, the secure layers added won't be of any help. Having the best impenetrable door with the all windows open and the house is on the first floor won't add any protection from entering. 
 
 A simple example is intel SGX. This one is a 6-stars elite champion in terms of vulnerabilities. We can cite [SmashEx](https://jasonyu1996.github.io/SmashEx/), [AEPic](https://aepicleak.com/) Leak, [Downfall](https://downfall.page/) and others ([you can find a list here](https://sgx.fail/)). 
 
