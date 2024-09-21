@@ -53,8 +53,19 @@ For instance, if you have an arbitrary code execution on a server running in a T
 
 Thus, reducing the TCB should also imply reducing the software stack you are running. Otherwise, it will be the same as running a normal OS directly. 
 
-One use-case that is highly discussed at the time of writing this document, is protecting AI and ML Model weights by putting them inside a TEE by leveraging, for example, AMD SEV-SNP combined with Nvidia H100. It could be a legitimate answer to protect the intellectual property from a internal/external threats. However, to be able to run workloads on it, other services must be implemented, and other connections   
+One use-case that is highly discussed at the time of writing this document, is protecting AI and ML Model weights by putting them inside a TEE by leveraging, for example, AMD SEV-SNP combined with Nvidia H100. It could be a legitimate answer to protect the intellectual property from a internal/external threats. However, to be able to run workloads on it, other services must be implemented, and the more we add services to confidential platforms, the more it adds to the attack vector and thus of a service being compromised. This possess a real threat to the confidential system because its sole purpose is to be to run isolated and inacessible workloads. 
 
+*If an attacker could inject commands inside the confidential environment and succeeds, the confidential system wouldn't be that confidential now, would it?* 
+
+
+
+
+
+Some shadowy subjects has also to be taken into account. For example, other connections has to be made, especially between GPUs. Nvidia is trying to tackle the issue by adding attestation between GPUs and HPC networks through NvLink and InfiniBand but it isn't still enough documented to understand what is really happening. The overall question is, how to scale attestation in GPUs easily and make it work seamlessly.  
+
+There is still a lot of research that has to be done when it comes to exploring RDMA (Remote Direct Memory Access) where the computation bypasses the CPUs for more efficiency but could be critical for the data sent as that there might be no encryption mechanisms.
+
+Some research about this : [https://github.com/spcl/redmark/blob/master/paper/redmark.pdf](https://github.com/spcl/redmark/blob/master/paper/redmark.pdf) and [https://www.usenix.org/conference/atc20/presentation/taranov](https://www.usenix.org/conference/atc20/presentation/taranov)
 
 
 
