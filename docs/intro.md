@@ -18,7 +18,10 @@ In a nutshell, Confidential Computing is a [Privacy-enhancing Technology](https:
 
 
 ## Trusted Computing
-Trusted computing
+Before talking about Confidential Computing 
 
-## Trusted Execution Environments
+## Trusted Execution Environments (TEEs)
 
+### The notion of Trusted Computing Base (TCB)
+
+### Types of TEEs implementations
