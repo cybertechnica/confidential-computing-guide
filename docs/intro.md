@@ -32,12 +32,19 @@ TPMs can be defined as *secure processors*. While they don't have a isolated and
 
 Well, for the fact that some TEEs (e.g. AMD SEV-SNP) might use vTPMs (virtual TPMs - explained on the TPMs section) for ***remote attestation and measurements***. 
 
-
-
-
 ## Trusted Execution Environments (TEEs)
+
+Trusted Execution Environments (TEEs), sometimes referred to as enclaves, are special environments that physically or virtually isolated, and where the runtime execution is encrypted (which means that the memory layout could be encrypted and not readable by the host even at a higher ring privileges). 
 
 
 ### The notion of Trusted Computing Base (TCB)
+
+The Truted Computing Base (TCB) defines the components that needs to be defined as trusted. 
+
+As an example, for an application in a normal environment, the TCB includes *the hardware, firmware, hypervisor, operating system, devices, software... and then the application itself*. 
+
+
+
+
 
 ### Types of TEEs implementations
