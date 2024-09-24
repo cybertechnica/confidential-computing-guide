@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## What is this all about? 
 
-Data has to be protected in three different stages. When it's not used (at rest), when in transit (in transport) and when processed (in use). 
+Data has to be protected in three different stages. When it's not used (**at rest**), when in transit (**in transport**) and when processed (**in use**). 
 
 While we had a way to protect the data in transit for a while now with TLS and end-to-end encryption, but also data storage encryption (mostly using a KMS or the TPM-based application such as bitlocker), securing runtime execution was never a simple process. 
 
@@ -18,9 +18,25 @@ In a nutshell, Confidential Computing is a [Privacy-enhancing Technology](https:
 
 
 ## Trusted Computing
-Before talking about Confidential Computing 
+Before talking about Confidential Computing, let's review trusted computing first. 
+
+Largely initialized and developed by the [Trusting Computing Group](https://trustedcomputinggroup.org/), Truted Platform Modules (famously known as TPMs) are the backbone of trusted computing.
+
+One thing to note is that trusted computing is different from Confidential Computing. 
+
+### TPMs
+
+TPMs can be defined as *secure processors*. While they don't have a isolated and protected environment to launch applications such as TEEs, they can be used to verify the integrity of the platform, encrypt disk, manage secret keys, etc...  
+
+### Why include TPMs in Confidential Computing
+
+Well, for the fact that some TEEs (e.g. AMD SEV-SNP) might use vTPMs (virtual TPMs - explained on the TPMs section) for ***remote attestation and measurements***. 
+
+
+
 
 ## Trusted Execution Environments (TEEs)
+
 
 ### The notion of Trusted Computing Base (TCB)
 
