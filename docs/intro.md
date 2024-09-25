@@ -39,12 +39,21 @@ Trusted Execution Environments (TEEs), sometimes referred to as enclaves, are sp
 
 ### The notion of Trusted Computing Base (TCB)
 
-The Truted Computing Base (TCB) defines the components that needs to be defined as trusted. 
+The [Truted Computing Base (TCB)](https://en.wikipedia.org/wiki/Trusted_computing_base) defines the components that needs to be defined as trusted. It is a security design requirement. 
+
 
 As an example, for an application in a normal environment, the TCB includes *the hardware, firmware, hypervisor, operating system, devices, software... and then the application itself*. 
 
-
-
+The TCB for TEEs is by design reduced to the minimal possible. SGX for example, the TCB will be the hardware and the enclave itself. 
 
 
 ### Types of TEEs implementations
+There is multiple TEEs implementations. 
+
+Intel has two different ones SGX (hardware-based protection) and TDX (Virtualized). 
+AMD, only has a virtualized implementation (similar to TDX) called AMD SEV-SNP. 
+ARM also has ARM CCA which is related to ARM TrustZone protection. 
+
+
+There is other TEEs implementations by IBM, RISC-V and others which will not be discussed here. 
+
