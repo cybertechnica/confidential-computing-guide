@@ -2,5 +2,7 @@
 sidebar_position: 1
 ---
 
-# What is Confidential Computing
+# Key Concepts in Confidential Computing
+
+The overall goal of confidential computing is to be able to protect data in an untrusted (and possibly) insecure environment. 
 

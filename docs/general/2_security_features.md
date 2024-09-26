@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Security and Privacy Features
+# Security Features and implementations
 
 The security features added by confidential computing 
 
