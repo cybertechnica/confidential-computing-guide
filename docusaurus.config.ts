@@ -102,7 +102,7 @@ const config: Config = {
             },
             {
               label: 'H100',
-              to: '/docs/nvidia_h100/1_intro_nvidia_h100',
+              to: '/docs/nvidia_h100/intro',
             },
             {
               label: 'ARM CCA',
