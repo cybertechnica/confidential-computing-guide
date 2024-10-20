@@ -55,5 +55,5 @@ AMD, only has a virtualized implementation (similar to TDX) called AMD SEV-SNP.
 ARM also has ARM CCA which is related to ARM TrustZone protection. 
 
 
-There is other TEEs implementations by IBM, RISC-V and others which will not be discussed here. 
+There is other TEEs implementations by IBM, RISC-V and others which will not be discussed here (at least for now). 
 
