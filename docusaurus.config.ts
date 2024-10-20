@@ -70,7 +70,7 @@ const config: Config = {
           position: 'left',
           label: 'Guide',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/cybertechnica',
           label: 'GitHub',
@@ -98,11 +98,11 @@ const config: Config = {
             },
             {
               label: 'AMD SEV-SNP',
-              to: '/docs/amd-sev-snp/intro',
+              to: '/docs/amd_sev_snp/intro',
             },
             {
               label: 'H100',
-              to: '/docs/nvidia-h100/intro',
+              to: '/docs/nvidia_h100/1_intro_nvidia_h100',
             },
             {
               label: 'ARM CCA',
@@ -124,7 +124,7 @@ const config: Config = {
           items: [
             {
               label: 'Blog',
-              to: '/blog',
+              to: '/',
             },
             {
               label: 'GitHub',
