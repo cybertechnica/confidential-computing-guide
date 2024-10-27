@@ -133,7 +133,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Cybertechnica CC Guide, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Cybertechnica CC Guide.`,
     },
     prism: {
       theme: prismThemes.github,
