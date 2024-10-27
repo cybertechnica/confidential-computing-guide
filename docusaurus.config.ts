@@ -15,7 +15,7 @@ const config: Config = {
   trailingSlash: false,
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'cybertechnica.github.io', // Usually your GitHub org/user name.
+  organizationName: 'cybertechnica', // Usually your GitHub org/user name.
   projectName: 'confidential-computing-guide', // Usually your repo name.
 
   onBrokenLinks: 'throw',
