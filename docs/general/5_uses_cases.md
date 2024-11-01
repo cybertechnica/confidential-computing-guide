@@ -16,8 +16,9 @@ Another complexity that can be resolved by confidential computing is [decentrali
 
 ## Key management services
 
+Key management services 
 ## Identity and device authentication
-Another usage for remote attestation could be device authentication before user authentication.
+Another usage for remote attesstation could be device authentication before user authentication.
 
 Authentication to a remote machine usually utilizes an authentication protocol (Public-key authentication, Kerberos, LDAP, OAuth2 or others). Usually these types of authentication protocols depends heavily on only verifying the user's identity. Thus, if an attacker gets his hand on the user credentials, the server might give access to the resources without any more checks.
 
