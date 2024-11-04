@@ -16,13 +16,18 @@ Another complexity that can be resolved by confidential computing is [decentrali
 
 ## Key management services
 
-Key management services 
-## Identity and device authentication
-Another usage for remote attesstation could be device authentication before user authentication.
+[Key management services](https://en.wikipedia.org/wiki/Key_management#:~:text=Key%20management%20refers%20to%20management,procedures%2C%20and%20other%20relevant%20protocols.) are important components that manages the numerous keys and certificates in a SaaS product or at an entreprise level. It is thus, one of the most important software to secure. 
 
-Authentication to a remote machine usually utilizes an authentication protocol (Public-key authentication, Kerberos, LDAP, OAuth2 or others). Usually these types of authentication protocols depends heavily on only verifying the user's identity. Thus, if an attacker gets his hand on the user credentials, the server might give access to the resources without any more checks.
+TEEs (but also TPMs and HSMs/Hardware Security Modules) help on different KMS operations and necessary management steps such as exchange, storage and use. 
 
-Adding device authentication could help resolve this issue. Maybe even for lateral movement inside the same network. Each device will have to send a report for the attestation on top of the authentication mechanism. That way, the server could verify the attestation and establish a remote attestation communication channel before establishing the user authentication.
+
+## Multi-Party Computation (MPC)
+
+## Secure financial transactions
+
+[To be verified] It appears that also many banking infrasctructure use TEE hardware to secure transaction. They usually use SGX to have a hardware secure enclave to isolate the transaction code that is running. 
+
+
 
 
 
