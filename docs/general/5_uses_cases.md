@@ -23,6 +23,7 @@ TEEs (but also TPMs and HSMs/Hardware Security Modules) help on different KMS op
 
 ## Multi-Party Computation (MPC)
 
+
 ## Secure financial transactions
 
 [To be verified] It appears that also many banking infrasctructure use TEE hardware to secure transaction. They usually use SGX to have a hardware secure enclave to isolate the transaction code that is running. 
