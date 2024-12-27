@@ -7,11 +7,11 @@ sidebar_position: 6
 
 Many people raised several concerns about confidential computing and trusted computing. We can categorize these concerns into two parts :
 - ethical concerns : Where using TPMs and confidential computing will result in a DRM system that could limit the freedom that we have on a device. 
-- security concerns : In the way it is implemented, might be difficult to recover from if critical vulnerability that exposes the secrets is found. 
+- security concerns : In the way it is implemented, might be difficult to recover from if a critical vulnerability that exposes the secrets is dicovered and difficult to mitigate. 
 
 ## Ethical and privacy concerns 
 
-One first thing to understand is that there is a difference between confidentiality and privacy. In information systems, TEEs can guarantee the confidentiality of runtime execution. However, privacy IS NOT something that TEEs protect us from. It is even the contrary. In TPMs for example, knowing the Endorsement Key of a secure chip could reveal information about which chip it is. 
+One first thing to understand is that there is a difference between confidentiality and privacy. In information systems, TEEs can guarantee the confidentiality of runtime execution. However, privacy IS NOT something that TEEs guarantees. It is even the contrary. In TPMs for example, knowing the Endorsement Key of a secure chip could reveal information about which chip it is. 
 
 The ethical and privacy concerns are valid. Numerous discussions on the freedom of using you own hardware according to what you want is rightfull. For example, Intel ME has been accused of containing a backdoor and is insecure due to multiple vulnerabilities since 2017. This suggestion is mainly strenghten [by the fact that the code isn't publicly accessible for researchers](https://blog.thenewoil.org/the-not-so-scary-truth-behind-intel-me) (which is by the way a valid point) and the fact that the Intel ME chip is always up, can not be disabled and has access to everything inside the computer (network, memory, keyboard, display, etc...) - yes, this is really suspicious indeed. However, the main concern is about management (as indicated by the name Intel *"Management Engine"*). The goal of this chip might have been a DRM type of control, which isn't by any means less concerning.
 
