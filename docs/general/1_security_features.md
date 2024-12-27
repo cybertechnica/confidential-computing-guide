@@ -22,6 +22,7 @@ Sealing is defined as a way to protect persistent and stored data.
 ## Cryptographic operations 
 
 
+
 ## References 
 
 *NIST, Attestation definition* - [https://csrc.nist.gov/glossary/term/attestation#:~:text=Definitions%3A,and%20the%20set%20of%20measurements](https://csrc.nist.gov/glossary/term/attestation#:~:text=Definitions%3A,and%20the%20set%20of%20measurements).
