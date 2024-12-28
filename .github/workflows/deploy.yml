@@ -50,13 +50,13 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: confidential-computing-guide/.vitepress/dist
+          path: .vitepress/dist
 
   # Deployment job
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}/confidential-computing-guide
     needs: build
     runs-on: ubuntu-latest
     name: Deploy
