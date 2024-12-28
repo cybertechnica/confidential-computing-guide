@@ -16,7 +16,7 @@ export default defineConfig({
         text: 'Guide',
         items: [
           { text: 'Intro', link: '/intro' },
-          { text: 'General', items: [
+          { text: 'General concepts', collapsed: true, items: [
             { text: 'Security features', link: '/general/1_security_features'},
             { text: 'Attestation', link: '/general/2_attestation'},
             { text: 'Sealing', link: '/general/3_sealing'},
@@ -26,7 +26,7 @@ export default defineConfig({
             ] 
           },
           {
-            text: 'TPMs', items: [
+            text: 'TPMs', collapsed: true, items: [
               { text: 'General overview', link: '/tpm/1_intro'},
               { text: 'Try it, you might already have it', link: '/tpm/2_try_it'},
               { text: 'Examples and use-cases', link: '/tpm/3_examples'},
@@ -37,27 +37,27 @@ export default defineConfig({
             ]
           },
           {
-            text: 'AMD SEV SNP', items: [
+            text: 'AMD SEV SNP', collapsed: true, items: [
               { text: 'Under construction', link: '/amd_sev_snp/intro'},
             ]
           },
           {
-            text: 'Nvidia H100', items: [
+            text: 'Nvidia H100', collapsed: true, items: [
               { text: 'Under construction', link: '/nvidia_h100/intro'},
             ]
           },
           {
-            text: 'SGX', items: [
+            text: 'SGX', collapsed: true, items: [
               { text: 'Under construction', link: '/sgx/intro'},
             ]
           },          
           {
-            text: 'TDX', items: [
+            text: 'TDX', collapsed: true, items: [
               { text: 'Under construction', link: '/tdx/intro'},
             ]
           },
           {
-            text: 'ARM CCA', items: [
+            text: 'ARM CCA', collapsed: true, items: [
               { text: 'Under construction', link: '/arm_cca/intro'},
             ]
           }

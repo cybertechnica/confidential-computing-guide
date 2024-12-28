@@ -5,14 +5,14 @@ layout: home
 hero:
   name: "Confidential Computing Guide "
   text: "A guide for understanding Confidential Computing and TEEs"
-  tagline: My great project tagline
+  tagline: For people who trust but verify
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Getting started
+      link: /intro
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Start with AMD SEV-SNP 
+      link: /amd_sev_snp/intro
 
 features:
   - title: Feature A
