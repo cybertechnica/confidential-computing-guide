@@ -17,13 +17,15 @@ export default defineConfig({
         text: 'Guide',
         items: [
           { text: 'Intro', link: '/intro' },
+          { text: 'Comparing the different technologies', link: '/general/comparison'},
           { text: 'General concepts', collapsed: true, items: [
             { text: 'Security features', link: '/general/1_security_features'},
             { text: 'Attestation', link: '/general/2_attestation'},
             { text: 'Sealing', link: '/general/3_sealing'},
             { text: 'Key generation and management', link: '/general/4_keygen_protections'},
             { text: 'Use-cases and applications', link: '/general/5_use_cases'},
-            { text: 'Privacy and security concerns', link: '/general/6_not_perfect'}
+            { text: 'Privacy and security concerns', link: '/general/6_not_perfect'},
+            
             ] 
           },
           {
@@ -38,7 +40,7 @@ export default defineConfig({
             ]
           },
           {
-            text: 'AMD SEV SNP', collapsed: true, items: [
+            text: 'AMD SEV-SNP', collapsed: true, items: [
               { text: 'Under construction', link: '/amd_sev_snp/intro'},
             ]
           },
