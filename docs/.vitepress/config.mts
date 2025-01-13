@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Cybertechnica",
+  title: "Cybertechnica.io",
   description: "A guide for understanding Confidential Computing and TEEs",
   base: "/confidential-computing-guide",
   themeConfig: {

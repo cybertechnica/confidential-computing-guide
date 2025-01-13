@@ -1,3 +1,6 @@
+use crate::attestation;
+
+
 fn main() {
-    println!("Hello, world!");
+    println!("Remote Attestation example : ");
 }
