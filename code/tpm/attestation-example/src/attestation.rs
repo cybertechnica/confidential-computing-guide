@@ -71,3 +71,7 @@ fn create_ak(context: &mut Context, ek_handle: NvIndexHandle, key_algo: KeyAlgor
 fn get_pcrs_bank(context: Context) -> Result<PcrData> {
 
 }
+
+pub fn attestation(&mut context: Context) {
+    
+}
