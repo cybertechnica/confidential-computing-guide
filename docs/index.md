@@ -15,11 +15,11 @@ hero:
       link: /amd_sev_snp/intro
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Exploring Confidential Computing
+    details: Discovering the different existing technologies used in Confidential Computing
+  - title: Building Confidential applications
+    details: Testing and building confidential computing capabilities for different applications
+  - title: Security in-depth
+    details: Understanding what Confidential Computing protects and what it does not
 ---
 
