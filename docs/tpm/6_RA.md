@@ -8,11 +8,14 @@ The example presented in this chapter relies on the tutorial from the [TPM2 comm
 
 The attestation workflow will be done in Rust. 
 
-## Communication workflow 
+## Attestation workflow 
 
 Remote attestation is the mechanism that is built to establish trust with a remote device through attestation. 
 Platform anonymity. 
-### Attestation Procedure
+
+### 
+
+### Protocol
 Before a system can be attested the owner needs to obtain the public key of the TPM Vendor EK and OEM generated Attestation Key along with the appropriate certificates. 
 
 

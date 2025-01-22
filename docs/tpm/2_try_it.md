@@ -8,6 +8,8 @@ Nowadays, pretty much every laptop and server is equipped with a TPM device (or 
 
 And even if it's not available, we can still be able to emulate a TPM using [swtpm](https://github.com/stefanberger/swtpm). 
 
+## Using a hardware TPM 
+
 
 ## Emulating a TPM
 
@@ -92,7 +94,11 @@ sudo tpm2_getcap handles-nv-index
 On a virtual TPM, the PCRs, responsible for software and firmware measurements, are not extended. This is normal because the TPM starts after the OS is ran. 
 
 
-## Using a hardware TPM 
+## Running with Qemu 
+
+# Sum up
+
+We now know how to start using a TPM. Which is a great skill ! The next chapters are more theoretical, but will be important to understand how to make use of the TPM. 
 
 
 # References

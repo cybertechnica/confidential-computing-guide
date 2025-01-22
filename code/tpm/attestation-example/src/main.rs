@@ -12,4 +12,6 @@ fn main() {
             .expect("Failed to get TCTI / TPM2TOOLS_TCTI from environment. Try `export TCTI=device:/dev/tpmrm0`"),
     )
     .expect("Failed to create Context");
+
+    
 }

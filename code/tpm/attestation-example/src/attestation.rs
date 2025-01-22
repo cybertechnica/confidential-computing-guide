@@ -8,7 +8,7 @@ use tss_esapi::{
     },
     structures::{PcrSelectionListBuilder, PcrSlot, HashScheme, SignatureScheme, Public, CreateKeyResult},
     abstraction::{
-        pcr::{PcrData},
+        pcr::PcrData,
         ak::{
             create_ak_2 as create_ak, 
             load_ak
@@ -63,14 +63,12 @@ fn get_ek_pub(context: &mut Context, ek_handle: KeyHandle, key_algo: KeyAlgorith
     let (ek_public, _name, _qualified_name) = context
         .read_public(ek_handle)
         .expect("Failed to read ek_public");
-    
     Ok(ek_public)
 }
 
 /// Deriving the Attestation Identity Key under the Endorsement hierarchy for RA purposes 
 fn create_ak_alg(context: &mut Context, ek_handle: KeyHandle, key_algo: KeyAlgorithm) -> Result<CreateKeyResult> {
     Ok(create_ak(context, ek_handle, key_algo.hash_alg, key_algo.key_alg, key_algo.sign_alg, None, None)?)
-
 }
 
 // fn get_pcrs_bank(context: Context) -> Result<PcrData> {
@@ -87,7 +85,5 @@ pub fn attestation(context: &mut Context) -> Result<()> {
     // let ek_public = get_ek_pub(context, ek_handle.clone?, key_algo?);
     // // Creating the Attestation Identity Key 
     // let ak_result = create_ak_alg(&mut context, ek_handle?, key_algo?);
-
-
     Ok(())
 }
