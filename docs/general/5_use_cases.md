@@ -1,7 +1,9 @@
 ---
 sidebar_position: 5
 ---
-
+::: warning
+This project is still under development, every feedback and contribution on this project would be helpful :)
+:::
 # Uses-cases and applications
 
 Where all these use-cases collides is removing trust from the host system to a particular application. 
@@ -26,7 +28,7 @@ TEEs (but also TPMs and HSMs/Hardware Security Modules) help on different KMS op
 
 ## Secure financial transactions
 
-[To be verified] It appears that also many banking infrasctructure use TEE hardware to secure transaction. They usually use SGX to have a hardware secure enclave to isolate the transaction code that is running. 
+It appears that also many banking infrasctructure use TEE hardware to secure transaction. They usually use SGX to have a hardware secure enclave to isolate the transaction code that is running. 
 
 
 

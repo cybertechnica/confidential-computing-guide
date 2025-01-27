@@ -9,6 +9,9 @@ export default withMermaid(
     base: "/confidential-computing-guide",
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
+      search: {
+        provider: 'local'
+      }, 
       nav: [
         { text: 'Home', link: '/' },
         { text: 'Guide', link: '/intro' }

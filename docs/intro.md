@@ -1,7 +1,9 @@
 ---
 sidebar_position: 1
 ---
-
+::: warning
+This project is still under development, every feedback and contribution on this project would be helpful :)
+:::
 # A first introduction to Confidential Computing 
 
 ## What is this all about? 
@@ -28,9 +30,9 @@ One thing to note is that trusted computing is different from Confidential Compu
 
 TPMs can be defined as *secure processors*. While they don't have a isolated and protected environment to launch applications such as TEEs, they can be used to verify the integrity of the platform, encrypt disk, manage secret keys, etc...  
 
-### Why include TPMs in Confidential Computing
+### Why include TPMs in a Confidential Computing guide
 
-Well, for the fact that some TEEs (e.g. AMD SEV-SNP) might use vTPMs (virtual TPMs - explained on the TPMs section) for ***remote attestation and measurements***. 
+Some TEEs (e.g. AMD SEV-SNP, TDX) can use vTPMs (virtual TPMs - explained on the TPMs section) for ***remote attestation and runtime measurements***. 
 
 ## Trusted Execution Environments (TEEs)
 

@@ -1,7 +1,9 @@
 ---
 sidebar_position: 5
 ---
-
+::: warning
+This project is still under development, every feedback and contribution on this project would be helpful :)
+:::
 # A tale of keys 
  
 In this section we are going to talk about the different keys. The ones that can be used, the ones that must be protected, and the ones that are saved. 

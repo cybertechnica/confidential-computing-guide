@@ -2,6 +2,9 @@
 sidebar_position: 1
 ---
 
+::: warning
+This project is still under development, every feedback and contribution on this project would be helpful :)
+:::
 
 # General overview
 

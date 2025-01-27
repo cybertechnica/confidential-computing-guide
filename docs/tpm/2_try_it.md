@@ -1,7 +1,9 @@
 ---
 sidebar_position: 2
 ---
-
+::: warning
+This project is still under development, every feedback and contribution on this project would be helpful :)
+:::
 # Try it, you already have it 
 
 Nowadays, pretty much every laptop and server is equipped with a TPM device (or a T2 secure enclave for Apple devices). 

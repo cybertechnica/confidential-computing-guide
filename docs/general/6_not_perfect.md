@@ -1,7 +1,9 @@
 ---
 sidebar_position: 6
 ---
-
+::: warning
+This project is still under development, every feedback and contribution on this project would be helpful :)
+:::
 
 # Privacy and security concerns
 
