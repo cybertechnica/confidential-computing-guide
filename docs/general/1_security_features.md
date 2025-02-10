@@ -42,7 +42,7 @@ The following table represents the set of the components that could be in place 
     <tr>
         <td colspan="3">Firmware</td>
     </tr>
-        <tr>
+    <tr>
         <td colspan="3">Physical hardware</td>
     </tr>
 </table>

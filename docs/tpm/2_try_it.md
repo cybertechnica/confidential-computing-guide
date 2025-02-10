@@ -10,8 +10,12 @@ Nowadays, pretty much every laptop and server is equipped with a TPM device (or 
 
 And even if it's not available, we can still be able to emulate a TPM using [swtpm](https://github.com/stefanberger/swtpm). 
 
-## Using a hardware TPM 
+> the following set up has been done for a *Linux system*. It is also possible to make use of the TPM in Windows but it is not detailed here. However, for either OS, the tools remains the same.
 
+## Using a hardware TPM 
+If a hardware is available, the linux kernel should be able to initialize the TPM. 
+
+The device is usually accessible from `/dev/tpm0` or `/dev/tpmrm0` directly.  
 
 ## Emulating a TPM
 
@@ -97,6 +101,9 @@ On a virtual TPM, the PCRs, responsible for software and firmware measurements, 
 
 
 ## Running with Qemu 
+::: warning
+The qemu section is still being writing. 
+:::
 
 # Sum up
 

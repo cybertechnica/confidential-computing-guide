@@ -18,7 +18,28 @@ An Enclave or a Confidential VM has two ways of attesting itself.
 
 Local attestation can be used to attest an enclave locally on the same machine. This can be used to attest an enclave against another one on the same machine.  
 
-Remote attestation is used to attest a enclave remotely. A simple example is to verify a machine from a remote user. 
+Remote attestation is used to attest a enclave remotely. A way to verify a machine from a remote user. 
+
+
+## Remote Attestation 
+
+> The following part is a theoretical part, it defines the concepts and keywords around the remote attestation and the crucial roles that needs to be connected together. 
+
+> An [RFC](https://www.rfc-editor.org/rfc/rfc9334.html) defines the multiple roles and definitions around the Remote Attestation. 
+
+### Who does what ? 
+
+Remote Attestation is usually defined by three roles : the Attester, the Verifier and the Third Party. 
+
+#### The Attester 
+The Attester creates the evidence. It defines the platform that has the secure processor and is able to generate the evidence. 
+
+
+#### The Verifier
+
+#### The relying Party 
+
+#### The other roles the RFC
 
 <!-- ## Types of remote Attestation implementations -->
 
