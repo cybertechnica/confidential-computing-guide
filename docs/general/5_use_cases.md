@@ -22,9 +22,14 @@ Another complexity that can be resolved by confidential computing is [decentrali
 
 TEEs (but also TPMs and HSMs/Hardware Security Modules) help on different KMS operations and necessary management steps such as exchange, storage and use. 
 
+## Secure messaging and end-to-end encryption : Signal use-case
+Signal uses SGX for some system used, such as [contact discovery service](https://github.com/signalapp/ContactDiscoveryService-Icelake). 
+
 
 ## Multi-Party Computation (MPC)
-
+::: info
+To be detailed. 
+:::
 
 ## Secure financial transactions
 

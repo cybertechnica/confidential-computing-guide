@@ -20,18 +20,18 @@ The ethical and privacy concerns are valid. Numerous discussions on the freedom 
 So the main question remains : *is it possible to trust you own computer ? Or do you have a full control over it ?* 
 
 Well, the quick answer is no, and that might be because of the remote attestation. 
-Richard Stallman (*just the guy who created the GNU project*) actually wrote an [essay back in 2002](https://www.gnu.org/philosophy/can-you-trust.en.html) basically predicting this issue. Unfortunately, he wasn't totally wrong. The example is, as he noted in his update, Google Play Integrity API (formerly known as Google SafetyNet) which verifies that the operating system you are running is a Google official version. Hence, if you're using another OS such as [GrapheneOS](https://grapheneos.org/articles/attestation-compatibility-guide), [LineageOS](https://lineageos.org/PlayIntegrity/) or others, some bank apps (and Netflix apparently) will not run on other operating systems other than an official Google android one. 
+Richard Stallman (*just the guy who created the GNU project*) actually wrote an [essay back in 2002](https://www.gnu.org/philosophy/can-you-trust.en.html) basically predicting this issue. Unfortunately, he wasn't totally wrong. The example is, as he noted in his update, Google Play Integrity API (formerly known as Google SafetyNet) which verifies that the operating system you are running is a Google official version. Hence, if you're using another OS such as [GrapheneOS](https://grapheneos.org/articles/attestation-compatibility-guide), [LineageOS](https://lineageos.org/PlayIntegrity/) or others, some bank apps (and Netflix apparently) will not run on other operating systems other than an official Google android one.  [More on grapheneOS attestation compatibility here.](https://grapheneos.org/articles/attestation-compatibility-guide)
 
 Not great for those who do not want to use Google apps (with the whole constant tracking) anymore or wants to have full control of their hardware. 
 
-[Gabriel Sieben](https://gabrielsieben.tech/2022/07/29/remote-assertion-is-coming-back-how-much-freedom-will-it-take/) wrote a better article explaining these predicaments and what could lead to. 
+[Gabriel Sieben](https://gabrielsieben.tech/2022/07/29/remote-assertion-is-coming-back-how-much-freedom-will-it-take/) wrote a more detailed article explaining these predicaments and what could lead to. 
 
 *What should be done?*
 
 Remote attestation is not all that bad. If used correctly. 
 There is many use-cases where we can find useful purposes as a protective mechanism. From malware and bootkits detection to phishing protection. It should just not be used as a mean to control and restrict people from using the software they want. 
 
-One way to achieve that is through transparency. 
+One way to achieve that is through transparency. An idea that has been discussed is to have an attestation service that can be monitored by peers and trusted by most software. In the same way certificate transparency works, we can have [attestation transparency](https://jbeekman.nl/publications/attestation-transparency.pdf).  
 
 
 ## Security concerns

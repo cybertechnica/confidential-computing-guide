@@ -1,9 +1,12 @@
-use crate::attestation::attestation;
+
 use tss_esapi::{
     Context,
     TctiNameConf,
 };
 pub mod attestation;
+use crate::attestation::run_attestation;
+
+
 fn main() {
     println!("Remote Attestation example : ");
 
@@ -13,5 +16,6 @@ fn main() {
     )
     .expect("Failed to create Context");
 
-    
+    run_attestation(&mut context).unwrap();
+
 }
