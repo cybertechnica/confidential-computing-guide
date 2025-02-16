@@ -11,6 +11,13 @@ Specifically, this guide tries to answer the issue of having a guide that explai
 
 One other important subject, is to gather the security research done in TEEs, so that we can explain how to mitigate and research TEEs.
 
+## Structure
+
+The documentation can be found under `/docs/`. 
+
+The code and examples implemented can be found under `/code/`. 
+
+
 
 ## Contributing 
 
