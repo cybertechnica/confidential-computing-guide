@@ -72,7 +72,10 @@ export default withMermaid(
           ]
         }
       ],
-
+      footer: {
+        message: 'Released under Apache 2.0 License.',
+        copyright: 'Copyright © 2025 Cybertechnica.io'
+      },
       socialLinks: [
         { icon: 'github', link: 'https://github.com/cybertechnica/confidential-computing-guide' }
       ]
