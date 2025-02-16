@@ -49,7 +49,9 @@ jobs:
           cd docs/
           npm ci 
       - name: Build with VitePress
-        run: npm run docs:build 
+        run: |
+          cd docs/
+          npm run docs:build 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
