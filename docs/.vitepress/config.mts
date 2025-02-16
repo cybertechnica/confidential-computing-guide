@@ -6,7 +6,7 @@ export default withMermaid(
   defineConfig({
     title: "Cybertechnica.io",
     description: "A guide for understanding Confidential Computing and TEEs",
-    base: "/confidential-computing-guide",
+    base: "/",
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       search: {
