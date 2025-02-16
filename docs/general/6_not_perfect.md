@@ -1,10 +1,6 @@
----
-sidebar_position: 6
----
-::: warning
-This project is still under development, every feedback and contribution on this project would be helpful :)
+::: warning Under-development 
+This project is still under development, any [feedback and contribution](https://github.com/cybertechnica/confidential-computing-guide/issues) on this project would be helpful :)
 :::
-
 # Privacy and security concerns
 
 Many people raised several concerns about confidential computing and trusted computing. We can categorize these concerns into two parts :

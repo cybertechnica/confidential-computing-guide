@@ -1,8 +1,5 @@
----
-sidebar_position: 3
----
-::: warning
-This project is still under development, every feedback and contribution on this project would be helpful :)
+::: warning Under-development 
+This project is still under development, any [feedback and contribution](https://github.com/cybertechnica/confidential-computing-guide/issues) on this project would be helpful :)
 :::
 # TPM concepts
 
