@@ -37,11 +37,12 @@ export default withMermaid(
               text: 'TPMs', collapsed: true, items: [
                 { text: 'General overview', link: '/tpm/1_intro'},
                 { text: 'Try it, you might already have it', link: '/tpm/2_try_it'},
-                { text: 'Examples and use-cases', link: '/tpm/3_concepts'},
-                { text: 'TPM functions and features', link: '/tpm/4_tpm_features'},
+                { text: 'Concepts', link: '/tpm/3_concepts'},
+                { text: 'TPM features', link: '/tpm/4_tpm_features'},
                 { text: 'A tale of keys', link: '/tpm/5_tale_of_keys'},
                 { text: 'Remote attestation implementation', link: '/tpm/6_RA'},
-                { text: 'Sealing and disk encryption', link: '/tpm/7_Sealing'}
+                { text: 'Sealing and disk encryption', link: '/tpm/7_Sealing'},
+                { text: 'Advanced TPM', link: '/tpm/advanced_tpm'}
               ]
             },
             {

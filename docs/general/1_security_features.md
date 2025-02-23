@@ -47,22 +47,53 @@ The following table represents the set of the components that could be in place 
 
 While each VM (Thus there is no interaction between the different applications on different VMs) is isolated, the hypervisor still have access to both VMs.  
 
-***A confidential computing environment, in the other hand, should also be isolated from the hypervisor and maybe also other low-level components.*** 
+***A confidential computing environment, in the other hand, should also be isolated from the hypervisor and may also be isolated from other low-level components.*** 
 
+Thus, instead 
 
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 60%">
+<table style="text-align: center;">
+    <tr>
+        <td colspan="1">Trusted component stack</td>
+    </tr>
+    <tr>
+        <td>Application 1</td>
+    </tr>
+    <tr>
+        <td>VM 1</td>
+        <td>VM 1</td>
+    </tr>
+    <tr>
+        <td colspan="">Hypervisor</td>
+        <td colspan="3">CVM 2</td>
+    </tr>
+    <tr>
+        <td colspan="3">Firmware</td>
+    </tr>
+    <tr>
+        <td colspan="3">Physical hardware</td>
+    </tr>
+</table>
+</div>
 
 
 ## Attestation 
 
-Also known as cryptographic attestation, aims to ensures the integrity and authenticity of data, software or hardware components. Simply put, the attestation is a digital signature for a set of measurements securely stored in hardware that can be validated by a requester. 
+Also known as cryptographic attestation, it aims to ensures the integrity and authenticity of data, software or hardware components. Simply put, the attestation is a digital signature for a set of measurements securely stored in hardware that can be validated by a requester. 
 
-See the [attestation part](./2_attestation.md) to know more about the different models of attestation and implementations.
+See the [attestation chapter](./2_attestation.md) to know more about the different models of attestation and implementations.
 
 
 
 ## Sealing 
 
-Sealing is defined as a way to protect persistent and stored data.  
+Sealing is defined as a way to protect persistent and stored data that can only be decrypted using the secure processor. 
+
+Bitlocker, for instance, uses sealing to encrypt the data using the TPM. 
+
+The [sealing chapter](./3_sealing.md) has more details about this feature. 
 
 
 

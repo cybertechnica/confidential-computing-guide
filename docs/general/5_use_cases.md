@@ -3,7 +3,7 @@ This project is still under development, any [feedback and contribution](https:/
 :::
 # Uses-cases and applications
 
-Where all these use-cases collides is removing trust from the host system to a particular application. 
+> The similarity among all these use-cases is the complexity of removing trust from the host system to a particular application. 
 
 ## Confidential AI 
 In the era of AI boom, it becames primordial to be able to protect the AI workloads in every stage, which basically includes, training, fine-tuning and inference. 
@@ -22,6 +22,10 @@ TEEs (but also TPMs and HSMs/Hardware Security Modules) help on different KMS op
 ## Secure messaging and end-to-end encryption : Signal use-case
 Signal uses SGX for some system used, such as [contact discovery service](https://github.com/signalapp/ContactDiscoveryService-Icelake). 
 
+
+## Blockchain, smart-contracts and EVMs
+
+Many blockchain companies started using TEEs to protect their users' confidentiality. [Secret Network](https://phala.network/), [Phala](https://phala.network/) and [Oasis](https://oasisprotocol.org/) are just examples among many others. 
 
 ## Multi-Party Computation (MPC)
 ::: info

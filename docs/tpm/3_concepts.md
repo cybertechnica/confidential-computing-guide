@@ -16,7 +16,7 @@ two certification processes :
 - The TPM vendor and platform manufacturer may provision the TPM with 
 
 ## PCRs 
-Platform Configuration Registers (PCRs) are special TPM2 objects that can only be modified or written by hash extension mechanism. The new hash replaces the old one after each extension. PCRs are arranged in banks depending on the hashing algorithm used. Every bank has up to 32 PCRs values available. 
+Platform Configuration Registers (PCRs) are special TPM2 objects that can only be modified or written by hash extension mechanism. The new hash replaces the old one after each extension. PCRs are arranged in banks depending on the hashing algorithm used. Every bank has up to ***32 PCRs*** values available. 
 
 ## MakeCredentials 
 #### Privacy enablement in TPM
