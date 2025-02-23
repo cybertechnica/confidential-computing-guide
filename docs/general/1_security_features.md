@@ -21,8 +21,8 @@ The following table represents the set of the components that could be in place 
             margin-right: auto;
             width: 60%">
 <table style="text-align: center;">
-    <tr>
-        <td colspan="3">Trusted component stack</td>
+    <tr style="font-weight: 900; font-style: italic;">
+        <td colspan="3">Component stack</td>
     </tr>
     <tr>
         <td>Application 1</td>
@@ -49,25 +49,29 @@ While each VM (Thus there is no interaction between the different applications o
 
 ***A confidential computing environment, in the other hand, should also be isolated from the hypervisor and may also be isolated from other low-level components.*** 
 
-Thus, instead 
+Thus, instead of having the usual stack, a confidential VM could not be accessed from the hypervisor or the host system and would be managed by the firmware of the physical hardware. 
+
+::: warning 
+This is just for the sake of explaining in high-level, the seperation between the different stacks. A more precised ***Trusted Computing Base*** will be detailed after because it is specific to each TEE implementation. 
+:::
 
 <div style="margin-left: auto;
             margin-right: auto;
             width: 60%">
 <table style="text-align: center;">
-    <tr>
-        <td colspan="1">Trusted component stack</td>
+    <tr style="font-weight: 900; font-style: italic;">
+        <td colspan="3">Component stack</td>
     </tr>
     <tr>
-        <td>Application 1</td>
+        <td colspan="1">Application 1</td>
+        <td colspan="2">Trusted Application</td>
     </tr>
     <tr>
-        <td>VM 1</td>
-        <td>VM 1</td>
+        <td colspan="1">VM 1</td>
+        <td rowspan="2"colspan="2">Confidential VM/Enclave</td>
     </tr>
     <tr>
-        <td colspan="">Hypervisor</td>
-        <td colspan="3">CVM 2</td>
+        <td colspan="1">Hypervisor</td>
     </tr>
     <tr>
         <td colspan="3">Firmware</td>
