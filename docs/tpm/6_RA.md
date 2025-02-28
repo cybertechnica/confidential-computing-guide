@@ -39,11 +39,13 @@ Before a system can be attested the owner needs to obtain the public key of the 
 
 
 ```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+sequenceDiagram
+    participant TPM
+    participant Attester
+    participant End-user (Third-Party)
+    Attester->>TPM : Get the EK Pub key 
+    
+    create participant Verifier 
 ```
 
 ## Implementation
