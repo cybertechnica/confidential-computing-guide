@@ -1,7 +1,32 @@
 ::: warning Under-development 
 This project is still under development, any [feedback and contribution](https://github.com/cybertechnica/confidential-computing-guide/issues) on this project would be helpful :)
 :::
-# TPM concepts
+
+
+
+# TPM general predicates
+
+## Entities 
+
+A TPM entity defines a ***hierarchy***, ***PCR (Platform configuration Register)***, ***object*** or ***NV index (Non-Volatile index)*** contained inside a TPM. An entity can be viewed as an item that is referenced with a *handle*. 
+
+The entities are divided as follows : 
+- Permanent entities : *Hierarchies, dictionary attack lockout mechanism, PCRs.*
+- Non-volatile entities : NVRAM 
+- Objects : *key or data*
+- Nonpersistent entities : *sessions and types*
+
+### Permanent entities 
+
+
+### Non-volatile entities
+
+
+### Objects 
+
+### Non-persistent entities
+
+
 
 ## Enrollment and provisioning 
 When first used a TPM must be provisioned. Which means, it shoul
