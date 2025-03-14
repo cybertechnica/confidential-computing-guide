@@ -31,7 +31,12 @@ One particular issue is that the EK is not a signing key. So we need another key
 
 
 
+### PCRs to prove the state of the machine
+PCRs (Platform Configuration Registers) are cryptographical records with the objective to measure the state of the software. In TPM 2.0, it is a bank of 24 records with each of them measuring a specific component in the machine (for example, boot, firmware and so on). 
 
+So to prove that we are using a said machine with a specific state or software inside (*proof of software state*), we can sign these records with a key inside the TPM to be sent and verified by a remote party. 
+
+### Event-log
 
 
 ### Protocol

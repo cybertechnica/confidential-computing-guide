@@ -12,7 +12,7 @@ A TPM entity defines a ***hierarchy***, ***PCR (Platform configuration Register)
 
 The entities are divided as follows : 
 - Permanent entities : *Hierarchies, dictionary attack lockout mechanism, PCRs.*
-- Non-volatile entities : NVRAM 
+- Non-volatile entities : *NVRAM*
 - Objects : *key or data*
 - Nonpersistent entities : *sessions and types*
 
