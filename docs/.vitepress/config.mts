@@ -47,7 +47,11 @@ export default withMermaid(
             },
             {
               text: 'AMD SEV-SNP', collapsed: true, items: [
-                { text: 'Under construction', link: '/amd_sev_snp/intro'},
+                { text: 'Quick intro', link: '/amd_sev_snp/intro'},
+                { text: 'Features', link: '/amd_sev_snp/features'},
+                { text: 'Installation and setup', link: '/amd_sev_snp/installation'},
+                { text: 'Remote Attestation implementation', link: '/amd_sev_snp/remote_attestation'},
+                { text: 'Practical example', link: '/amd_sev_snp/practical_example'},
               ]
             },
             {

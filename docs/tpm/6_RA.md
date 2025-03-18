@@ -39,6 +39,10 @@ So to prove that we are using a said machine with a specific state or software i
 ### Event-log
 
 
+### The quote data
+Little details on the quote structure. 
+
+
 ### Protocol
 Before a system can be attested the owner needs to obtain the public key of the TPM Vendor EK and OEM generated Attestation Key along with the appropriate certificates. 
 
