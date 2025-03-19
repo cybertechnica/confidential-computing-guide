@@ -34,3 +34,6 @@ The properties of the Endorsement Key are expressed by its public area template.
 The OEM may also generate Initial Attestation Key (IAK) and IAK certificate
 
 ***Primary Storage Key (PSK) :***
+
+
+[https://security.stackexchange.com/questions/235148/whats-the-difference-between-the-endorsement-key-and-the-attestation-identity-k](https://security.stackexchange.com/questions/235148/whats-the-difference-between-the-endorsement-key-and-the-attestation-identity-k)
