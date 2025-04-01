@@ -19,6 +19,6 @@ let user_data: [u8; 64];
 
 
 ## references 
-[https://www.amd.com/content/dam/amd/en/documents/developer/lss-snp-attestation.pdf](https://www.amd.com/content/dam/amd/en/documents/developer/lss-snp-attestation.pdf)
-[https://www.amd.com/content/dam/amd/en/documents/developer/58217-epyc-9004-ug-platform-attestation-using-virtee-snp.pdf](https://www.amd.com/content/dam/amd/en/documents/developer/58217-epyc-9004-ug-platform-attestation-using-virtee-snp.pdf)
-[https://www.amd.com/content/dam/amd/en/documents/epyc-technical-docs/specifications/57230.pdf](https://www.amd.com/content/dam/amd/en/documents/epyc-technical-docs/specifications/57230.pdf)
+- [https://www.amd.com/content/dam/amd/en/documents/developer/lss-snp-attestation.pdf](https://www.amd.com/content/dam/amd/en/documents/developer/lss-snp-attestation.pdf)
+- [https://www.amd.com/content/dam/amd/en/documents/developer/58217-epyc-9004-ug-platform-attestation-using-virtee-snp.pdf](https://www.amd.com/content/dam/amd/en/documents/developer/58217-epyc-9004-ug-platform-attestation-using-virtee-snp.pdf)
+- [https://www.amd.com/content/dam/amd/en/documents/epyc-technical-docs/specifications/57230.pdf](https://www.amd.com/content/dam/amd/en/documents/epyc-technical-docs/specifications/57230.pdf)
