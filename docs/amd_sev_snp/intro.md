@@ -1,6 +1,12 @@
 # General overview
 
 
+
+
+
+
+
+
 Example idea : AMD SEV-SNP for blockchain use case : protecting EVM transactions, mostly for validators verification
 - https://www.blocknative.com/blog/ethereum-validator-lighthouse-geth
 - https://github.com/flashbots/mev-boost / https://boost.flashbots.net/
