@@ -1,0 +1,10 @@
+[package]
+name = "attestation_example"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.97"
+openssl = "0.10.72"
+reqwest = "0.12.15"
+sev = { version = "6.0.0", default-features = false, features = ["openssl", "snp"] }

@@ -16,3 +16,9 @@ The ASP (also known as the Platform Secure Processor or PSP) is an ARM processor
 The ASP manages multiple security sensitive features (hence the important of it being seperated from the rest of the platform) :
 - Secure Boot : Authentication of the initial BIOS boot code. 
 - Manages the SEV-SNP guests life cycle : by managing the memory encryption keys.
+
+
+
+
+## references
+- [*AMD platform Security Processor*](https://en.wikipedia.org/wiki/AMD_Platform_Security_Processor)

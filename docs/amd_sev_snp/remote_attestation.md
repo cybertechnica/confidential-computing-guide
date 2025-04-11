@@ -17,6 +17,8 @@ The TCB in AMD SEV-SNP confidential VMs is restricted to the AMD hardware and fi
 
 The interface used to communicate with the AMD SEV-SNP hardware is from the [virTEE](https://virtee.io/) project. 
 
+We can also use the [SEV API](https://docs.kernel.org/virt/coco/sev-guest.html) directly using ioctls. 
+
 ### Guest VM 
 
 Supply a nonce : 
@@ -26,6 +28,19 @@ Supply a nonce :
 // data that needs to be certified by the attestation report 
 let user_data: [u8; 64];    
 ```
+
+Requesting the attestation report : 
+```rust
+use sev::firmware::guest::*;
+
+
+// Establishing a connection to the firmware 
+let mut firmware: Firmware = Firmware::open()?;
+
+// Request a standard attestation report 
+let attestation_report: AttestationReport = firmware.get_report(None)
+```
+
 
 
 
